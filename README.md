@@ -15,7 +15,7 @@
 
 ```
 {
-    urls: ["https://ya.ru/path1", "https://google.com/path2"]ы
+    urls: ["https://ya.ru/path1", "https://google.com/path2"]
 }
 ```
 > Протокол указывать обязательно!
