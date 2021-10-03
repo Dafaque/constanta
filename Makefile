@@ -8,5 +8,5 @@ clean:
 run: build start
 test:
 	curl -vvv -X POST http://localhost:8080/ \
-		-d "{\"urls\":[\"https://ya.ru/\",\"https://google.com/\", \"wss://pornhub.com/path_that_dont_exists\"]}"
+		-d "{\"urls\":[\"https://jsonplaceholder.typicode.com/photos\",\"https://jsonplaceholder.typicode.com/comments\",\"https://jsonplaceholder.typicode.com/posts\"]}"
 .PHONY: build start run clean test
