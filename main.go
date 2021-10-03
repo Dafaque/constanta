@@ -49,7 +49,7 @@ func main() {
 			)
 		},
 	}
-
+	println("server stating")
 	serveErr := server.ListenAndServe()
 	println("serve err:", serveErr)
 

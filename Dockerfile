@@ -6,4 +6,4 @@ RUN go build .
 FROM alpine:latest
 WORKDIR /app
 COPY --from=builder /build/constanta constanta
-ENTRYPOINT [ "constanta" ]
+ENTRYPOINT [ "./constanta" ]
