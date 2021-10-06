@@ -32,6 +32,7 @@ func Root(w http.ResponseWriter, r *http.Request) {
 	//? To many URLs
 	if len(req.Urls) > MAX_URLS {
 		w.WriteHeader(http.StatusRequestEntityTooLarge)
+		return
 	}
 
 	//? Main stuff here
